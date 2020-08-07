@@ -1,0 +1,657 @@
+@import url('https://fonts.googleapis.com/css?family=Acme&display=swap');
+body {
+    font-family: 'Acme', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -webkit-overflow-scrolling: touch;
+}
+.back-intro {
+    width: 100%;
+    min-height: 100vh;
+    margin-top: -10px;
+    background: url("img/back/backall.jpg") no-repeat fixed center center;
+    background-blend-mode: multiply;
+    background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
+}
+.wall-text {
+    font-family: 'Acme', sans-serif;
+    margin-top: 10px;
+    color: #fff;
+}
+.wall-text h1 {
+    font-size: 150px;
+}
+.wall-text h1:first-letter {
+    color: #ffc600;
+}
+.wall-text h6:first-letter   {
+    color: #ffc600;
+}
+.intro {
+    width: 100%;
+    min-height: 100vh;
+    background: url("img/back/back1.jpg") no-repeat center center;
+    overflow: hidden;
+    background-blend-mode: multiply;
+    background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
+    margin: 50px auto;
+}
+.intro-text {
+    font-family: 'Acme', sans-serif;
+    color: #fff;
+    padding-top: 50px;
+    font-size: 50px;
+}
+.intro-text span {
+    color: #ffc600;
+}
+.nav-link {
+    font-family: 'Acme', sans-serif;
+    text-decoration: none;
+    color: #ffc600;
+}
+.nav-link:hover {
+    text-decoration: none;
+    color: #fff;
+}
+.nav-item {
+    position: relative;
+    padding: 10px 15px;
+}
+.nav-item:first-child {
+    margin-left: -30px;
+}
+.nav-item a:before {
+    position: absolute;
+    content: "";
+    border-bottom: 2px solid #ffc600;
+    width: 0;
+    bottom: 15px;
+    transition: 0.5s;
+}
+.nav-item a:hover:before {
+    width: 50%;
+}
+.nav-item2 a:hover:before {
+    width: 70%;
+}
+.about {
+    background-color: #fff;
+    min-height: 70vh;
+    width: 100%;
+}
+.line {
+    margin-top: 35px;
+}
+.about-sublime {
+    padding: 20px 90px;
+    font-family: 'Acme', sans-serif;
+}
+.about-sublime h2 {
+    color: #717171;
+    font-size: 50px;
+}
+.about-sublime h1 {
+    margin-top: -30px;
+    color: black;
+    font-size: 90px;
+}
+.about-sublime h1:first-letter {
+    color: #ffc600;
+}
+.sublime h1 {
+    display: inline-block;
+    position: relative;
+}
+.sublime h1:after {
+    position: absolute;
+    content: "";
+    border-bottom: 2px solid #c5c5c5;
+    width: 50%;
+    right: 0;
+    bottom: 10%;
+}
+.right-about h5 {
+    font-family: 'Acme', sans-serif;
+}
+.name-icon {
+    padding: 15px;
+    font-family: 'Acme', sans-serif;
+}
+.name-icon p {
+    font-size: 12px;
+}
+.icon {
+    margin-top: 70px;
+}
+.list-projects {
+    font-family: 'Acme', sans-serif;
+    list-style-type: none;
+}
+.list-projects li {
+    padding: 10px 10px;
+    display: inline-block;
+}
+.list-projects li:first-child {
+    margin-left: -5%;
+ }
+.works-link {
+    font-size: 14px;
+    position: relative;
+    color: black;
+    text-decoration: none;
+}
+.works-link:hover {
+    color: black;
+    text-decoration: none;
+}
+.works-link:before {
+    position: absolute;
+    content: '';
+    border-bottom: 2px solid #ffc600;
+    width: 100%;
+    bottom: 0;
+    transition: 0.5s;
+    transform: scaleX(0);
+}
+.works-link:hover:before {
+    transform: scaleX(1);
+}
+.featured h1 {
+    display: inline-block;
+    position: relative;
+    font-family: 'Acme', sans-serif;
+}
+.featured h1:after {
+    position: absolute;
+    content: "";
+    border-bottom: 2px solid #c5c5c5;
+    width: 50%;
+    right: 0;
+    bottom: -10%;
+}
+.featured h1:first-letter {
+    color: #ffc600;
+}
+.card {
+    margin: 0 -9px;
+}
+.process h1 {
+    display: inline-block;
+    margin-top: 70px;
+    position: relative;
+    font-family: 'Acme', sans-serif;
+}
+.process h1:first-letter {
+    color: #ffc600;
+}
+.process h1:after {
+    position: absolute;
+    content: "";
+    border-bottom: 2px solid #c5c5c5;
+    width: 55%;
+    right: 0;
+    bottom: 0;
+}
+.under-process {
+    padding-top: 30px;
+    font-family: 'Acme', sans-serif;
+}
+.under-process p {
+    font-size: 13px;
+}
+.first-row {
+    padding-left: 32%;
+}
+.text-process {
+    padding-top: 80px;
+    font-family: 'Acme', sans-serif;
+}
+.text-process h2 {
+    font-size: 40px;
+}
+.text-process p {
+    font-family: 'Acme', sans-serif;
+    font-size: 14px;
+    padding-top: 10px;
+}
+.first-row {
+    padding: 5%;
+}
+.md2 {
+    display: none;
+}
+.service h1 {
+    color: #fff;
+    margin-top: 70px;
+    position: relative;
+    display: inline-block;
+    font-family: 'Acme', sans-serif;
+}
+.service h1:first-letter {
+    color: #ffc600;
+}
+.service h1:after {
+    position: absolute;
+    content: "";
+    border-bottom: 2px solid #c5c5c5;
+    width: 52%;
+    right: 0;
+    bottom: 0;
+}
+.services {
+    width: 100%;
+    min-height: 70vh;
+    background: url("img/back/back2.jpg") no-repeat center center;
+    overflow: hidden;
+    background-blend-mode: multiply;
+    background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
+    margin: 50px auto;
+}
+.service-block {
+    margin-left: 50%;
+    padding-top: 40px;
+    color: #fff;
+    font-family: 'Acme', sans-serif;
+}
+.name-block {
+    padding-bottom: 20px;
+}
+.name-block h1 {
+    font-size: 20px;
+}
+.service-block p {
+    font-size: 13px;
+}
+.testimonial {
+    width: 100%;
+    min-height: 50vh;
+    background: black;
+    margin-top: -50px;
+}
+.testimonials h1 {
+    color: #fff;
+    margin-top: 20px;
+    position: relative;
+    display: inline-block;
+    font-family: 'Acme', sans-serif;
+}
+.testimonials h1:first-letter {
+    color: #ffc600;
+}
+.testimonials h1:after {
+    position: absolute;
+    content: "";
+    border-bottom: 2px solid #c5c5c5;
+    width: 52%;
+    right: 0;
+    bottom: 0;
+}
+.text-john {
+    color: #fff;
+    padding-top: 10px;
+}
+.img-john {
+    padding-top: 30px;
+}
+.left-text {
+    color: #fff;
+    padding-top: 80px;
+}
+.blogs {
+    width: 100%;
+    min-height: 55vh;
+}
+.blog h1 {
+    color: black;
+    margin-top: 20px;
+    position: relative;
+    display: inline-block;
+    font-family: 'Acme', sans-serif;
+}
+.blog h1:first-letter {
+    color: #ffc600;
+}
+.blog h1:after {
+    position: absolute;
+    content: "";
+    border-bottom: 2px solid #c5c5c5;
+    width: 100%;
+    right: 0;
+    bottom: 0;
+}
+.card-blogs {
+    margin-top: 50px;
+}
+.image-block h6 {
+    font-family: 'Acme', sans-serif;
+    color: yellow;
+}
+.links {
+    font-family: 'Acme', sans-serif;
+    list-style-type: none;
+    line-height: 45px;
+}
+.links a {
+    color: black;
+    text-decoration: none;
+}
+.links a:hover {
+    color: yellow;
+    text-decoration: none;
+    transition: 0.1s ease-in;
+}
+.lines {
+    font-size: 21px;
+    margin-top: 100px;
+}
+.text-block {
+    font-family: 'Acme', sans-serif;
+}
+.contact-form {
+    width: 100%;
+    min-height: 65vh;
+    background-color: #2046b3;
+}
+.contact-name h1 {
+    color: #fff;
+    margin-top: 20px;
+    font-size: 45px;
+    position: relative;
+    display: inline-block;
+    font-family: 'Acme', sans-serif;
+}
+.contact-name h1:first-letter {
+    color: #ffc600;
+}
+.contact-name h1:after {
+    position: absolute;
+    content: "";
+    border-bottom: 2px solid #c5c5c5;
+    width: 100%;
+    right: 0;
+    bottom: 0;
+}
+.name-form, .telephone, .mail, .text-form {
+    background: transparent;
+    padding-left: 10px;
+    color: #fff;
+    font-family: 'Acme', sans-serif;
+    border: 2px solid #c5c5c5;
+}
+.name-form::placeholder, .telephone::placeholder, .mail::placeholder, .text-form::placeholder {
+    color: #fff;
+    opacity: 0.7;
+}
+
+.name-form {
+    margin-top: 30px;
+    width: 450px;
+    height: 35px;
+}
+.telephone {
+    width: 205px;
+    height: 35px;
+}
+
+.mail {
+    margin-left: 35px;
+    width: 205px;
+    height: 35px;
+}
+.text-form {
+    width: 450px;
+    height: 100px;
+}
+.btn-contact {
+    width: 100px;
+    height: 50px;
+    font-size: 30px;
+    background-color: yellow;
+    font-family: 'Acme', sans-serif;
+    color: black;
+    text-decoration: none;
+}
+.btn-contact:hover {
+    color: black;
+    text-decoration: none;
+}
+.e-mail {
+    padding-bottom: 30px;
+    border-bottom: 2px solid #c5c5c5;
+    width: 100%;
+}
+.add {
+    color: #fff;
+}
+.info-map {
+    margin-top: 40px;
+}
+.map {
+    margin-top: 30px;
+}
+.list-contact {
+    list-style-type: none;
+    padding-bottom: 30px;
+    border-bottom: 2px solid #c5c5c5;
+}
+.adr {
+    line-height: 40px;
+}
+.list-contacts p {
+    margin: 10px 40px;
+}
+.fa-twitter, .fa-instagram, .fa-facebook {
+    color: #fff;
+    padding: 5px;
+}
+.sublime-footer h1 {
+    color: #fff;
+    margin-top: 20px;
+    padding-top: 70px;
+    padding-bottom: 30px;
+    font-size: 70px;
+    font-family: 'Acme', sans-serif;
+}
+.sublime-footer h1:first-letter {
+    color: #ffc600;
+}
+.footer-menu {
+    list-style-type: none;
+}
+.footer-menu a {
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Acme', sans-serif;
+}
+.footer-menu a:hover {
+    transition: 0.2s ease-in;
+    color: #ffc600;
+    text-decoration: none;
+}
+.lists-footer {
+    line-height: 30px;
+}
+.for-border {
+    padding-bottom: 20px;
+    border-bottom: 2px solid #ffc600;
+    width: 50%;
+}
+.footers {
+    margin-top: 20px;
+    background-color: black;
+    width: 100%;
+    min-height: 100vh;
+}
+.icon-footer {
+    margin-top: 10px;
+}
+.icon-footer2 {
+    margin-left: 40px;
+}
+.some-text {
+    font-family: 'Acme', sans-serif;
+    color: #fff;
+    padding-top: 50px;
+    font-size: 90px;
+}
+.some-text span {
+    color: #ffc600;
+}
+.footers {
+    background: url("img/back/back3.jpg") no-repeat center center;
+    overflow: hidden;
+    background-blend-mode: multiply;
+    background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
+    width: 100%;
+    min-height: 85vh;
+    margin-top: 20px;
+}
+/*MEDIA*/
+@media (max-width: 2560px) {
+    .footer {
+        margin-left: -30%;
+    }
+}
+@media (max-width: 1440px) {
+    .footer {
+        margin-left: -10%;
+    }
+}
+@media (max-width: 1024px) {
+    .footer {
+        margin-left: 10%;
+    }
+    .line {
+        display: none;
+    }
+}
+@media (max-width: 899px) {
+    .text-process {
+        padding-left: 60px;
+    }
+    .text-process p {
+        font-size: 12px;
+    }
+}
+@media (max-width: 768px) {
+    .right-about {
+        float: left;
+    }
+    .right-about h5{
+        font-size: 15px;
+    }
+    .right-about p {
+        font-size: 13px;
+    }
+    .line {
+        display: none;
+    }
+    .card-blogs {
+        margin-left: 50px;
+    }
+    .md {
+        display: none;
+    }
+    .md2 {
+        display: block;
+    }
+    .first-row {
+        margin: 5% 15%;
+    }
+    .text-process {
+        text-align: center;
+        margin-top: -100px
+    }
+    .text-process p {
+        font-size: 12px;
+    }
+}
+@media (max-width: 668px) {
+    .wall-text h1 {
+        font-size: 100px;
+    }
+}
+@media (max-width: 425px) {
+    .service-block {
+        margin: auto;
+    }
+    .right-about h5{
+        font-size: 13px;
+    }
+    .right-about p {
+        font-size: 10px;
+    }
+    .about-sublime {
+        margin: auto -40px;
+    }
+    .first-row {
+        margin: 5% -10%;
+    }
+}
+@media (max-width: 390px) {
+    .nav-item {
+        padding: 10px 1px;
+    }
+    .wall-text h1 {
+        font-size: 70px;
+    }
+    .wall-text h6 {
+        font-size: 20px;
+    }
+    .nav-item a:hover:before {
+        width: 75%;
+    }
+    .nav-item2 a:hover:before {
+        width: 85%;
+    }
+}
+@media (max-width: 375px) {
+    .about-sublime {
+        margin: auto -70px;
+    }
+    .some-text {
+        font-size: 70px;
+    }
+    .map {
+        width: 300px;
+        height: 200px;
+    }
+    .name-form {
+        width: 300px;
+    }
+    .mail {
+        width: 51%;
+    }
+    .text-form {
+        width: 300px;
+    }
+    .telephone {
+        width: 105px;
+        height: 35px;
+    }
+}
+@media (max-width: 320px) {
+    .about-sublime h2 {
+        font-size: 30px;
+    }
+    .about-sublime h1 {
+        margin: -10px;
+        font-size: 50px;
+    }
+    .about-sublime {
+        margin: auto -30px;
+    }
+}
+
+
